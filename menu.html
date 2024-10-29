@@ -1,0 +1,106 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Menu</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            background-color: #f0f8ff;
+            margin: 0;
+            padding: 20px;
+        }
+        
+        h1 {
+            color: blue;
+            text-align: center;
+            background-color: aqua;
+            padding: 10px;
+            border-radius: 5px;
+        }
+        
+        table {
+            width: 80%; /* Adjust the width as needed */
+            border-collapse: collapse;
+            margin: 20px auto; /* Center the table */
+            text-align: center;
+        }
+
+        caption {
+            font-size: 1.5em;
+            margin: 10px 0;
+            font-weight: bold;
+        }
+
+        th, td {
+            border: 1px solid #ddd;
+            padding: 10px;
+            text-align: center;
+        }
+
+        th {
+            background-color: #4CAF50;
+            color: white;
+            text-align: center;
+        }
+
+        tr:nth-child(even) {
+            background-color: #f2f2f2;
+            text-align: center;
+        }
+
+        tr:hover {
+            background-color: #ddd;
+            text-align: center;
+        }
+
+        th, td {
+            box-sizing: border-box;
+            padding: 8px;
+            text-align: center;
+        }
+    </style>
+</head>
+<body>
+    <h1> Restaurant Menu</h1>
+    
+    <table id="menu">
+        <caption>MENU</caption>
+        <thead>
+            <tr>
+                <th>s.no</th>
+                <th>Food items</th>
+                <th>Qty</th>
+                <th>Price</th>
+            </tr>
+        </thead>
+        <tbody>
+            <tr>
+                <td>1</td>
+                <td>Chicken Wings</td>
+                <td>3</td>
+                <td>80/-</td>
+            </tr> 
+            <tr>
+                <td>2</td>
+                <td>Chilly Chicken</td>
+                <td>1</td>
+                <td>150/-</td>
+            </tr>  
+            <tr>
+                <td>3</td>
+                <td>Chicken Biryani</td>
+                <td>1</td>
+                <td>450/-</td>
+            </tr>  
+            <tr>
+                <td>4</td>
+                <td>Chicken Leg Piece</td>
+                <td>4</td>
+                <td>250/-</td>
+            </tr>    
+        </tbody>
+    </table>   
+</body>
+</html>
